@@ -5,41 +5,21 @@ using namespace std;
 int main () {
 
   // Without loop
-  cout << "*" << endl;
-  cout << "**" << endl;
-  cout << "***" << endl;
-  cout << "****" << endl;
-  cout << "*****" << endl;
-  cout << "******" << endl;
-  cout << "*****" << endl;
-  cout << "****" << endl;
-  cout << "***" << endl;
-  cout << "**" << endl;
-  cout << "*" << endl;
-  cout << "*" << endl;
-  cout << "**" << endl;
-  cout << "***" << endl;
-  cout << "****" << endl;
-  cout << "*****" << endl;
-  cout << "******" << endl;
-  cout << "*****" << endl;
-  cout << "****" << endl;
-  cout << "***" << endl;
-  cout << "**" << endl;
-  cout << "*" << endl;
-  cout << "*" << endl;
-  cout << "**" << endl;
-  cout << "***" << endl;
-  cout << "****" << endl;
-  cout << "*****" << endl;
-  cout << "******" << endl;
-  cout << "*****" << endl;
-  cout << "****" << endl;
-  cout << "***" << endl;
-  cout << "**" << endl;
-  cout << "*" << endl;
 
   // เขียนโปรแกรมให้ทำงานได้ตามข้างต้นโดยใช้ Loop
+  for ( int y = 0; y < 3; y++){
+     cout << "*" << endl;
+  cout << "**" << endl;
+  cout << "***" << endl;
+  cout << "****" << endl;
+  cout << "*****" << endl;
+  cout << "******" << endl;
+  cout << "*****" << endl;
+  cout << "****" << endl;
+  cout << "***" << endl;
+  cout << "**" << endl;
+  cout << "*" << endl;
+  }
 
 
   return 0;
