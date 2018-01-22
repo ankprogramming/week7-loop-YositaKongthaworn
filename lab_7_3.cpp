@@ -15,8 +15,13 @@ int main() {
   cout << "************END FOR************" << endl;
 
   // เขียนโปรแกรมที่ทำงานเหมือนด้านบนโดยใช้ while แทน for
+int y = 0;
+while (y <10 ){
 
-
+  cout << "Run from for" << endl;
+  y++;
+  }
+  cout << "************END FOR************" << endl;
 
   return 0;
 }
